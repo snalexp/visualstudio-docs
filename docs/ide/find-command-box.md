@@ -1,17 +1,15 @@
 ---
-title: "Find-Command Box | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: vs-ide-general
-ms.topic: "conceptual"
-f1_keywords: 
+title: Find-Command Box
+ms.date: 11/04/2016
+ms.topic: conceptual
+f1_keywords:
   - "vs.findcommandbox"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Find/Command box"
-author: "gewarren"
-ms.author: "gewarren"
-manager: douge
-ms.workload: 
+author: jillre
+ms.author: jillfra
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Find/Command box
@@ -22,7 +20,7 @@ To run a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command, pref
 
 The **Find/Command** box retains the last 20 items entered and displays them in a drop-down list. You can navigate through the list by choosing the **arrow keys**.
 
-![Find&#47;Command Box](../ide/media/findcommandbox.png "FindCommandBox")
+![Find&#47;Command Box](../ide/media/findcommandbox.png)
 
 ## Searching for text
 
@@ -50,5 +48,5 @@ A caret functions the same whether it is inside or outside quotation marks. If a
 
 ## See also
 
-[Command window](../ide/reference/command-window.md)  
-[Finding and replacing text](../ide/finding-and-replacing-text.md)
+- [Command window](../ide/reference/command-window.md)
+- [Finding and replacing text](../ide/finding-and-replacing-text.md)

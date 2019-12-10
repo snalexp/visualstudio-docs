@@ -1,29 +1,17 @@
 ---
-title: "State Machine Activity Designers | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: "Workflow Designer - State Machine Activity Designers"
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: 97f0bff5-7e48-4914-8f04-8015a1c6bfae
-ms.author: gewarren
-manager: douge
-ms.workload: 
+ms.author: jillfra
+manager: jillfra
+ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # State Machine Activity Designers
-Windows Workflow Designer includes a number of activity designers that you can use when constructing your workflows. This section contains the system-provided activity designers used to create and manage state machine workflows. The following topics describe these designers and provide guidance on how to use them.
 
-## In This Section
- [StateMachine](../workflow-designer/statemachine-activity-designer.md)
- Contains a collection of states and models workflows using the familiar state machine paradigm.
-
- [State](../workflow-designer/state-activity-designer.md)
- Represents a state in which a state machine can be in.
-
- [FinalState](../workflow-designer/finalstate-activity-designer.md)
- Represents a state that terminates a state machine instance.
-
- [Transition](../workflow-designer/transition-activity-designer.md)
- Represents the transition between two states.
+Workflow Designer includes a number of activity designers that you can use when constructing your workflows. This section contains the system-provided activity designers used to create and manage state machine workflows. The following topics describe these designers and provide guidance on how to use them.
 
 ## Reference
  <xref:System.Activities.Statements.StateMachine>
@@ -41,7 +29,7 @@ Windows Workflow Designer includes a number of activity designers that you can u
 
  [Flowchart](../workflow-designer/flowchart-activity-designers.md)
 
- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+ [Using the Activity Designers](control-flow-activity-designers.md)
 
  [Messaging](../workflow-designer/messaging-activity-designers.md)
 

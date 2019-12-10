@@ -1,24 +1,22 @@
 ---
 title: "How to: Relocate Instrumented Binaries | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.performance.property.binaries"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "binaries, instrumented"
   - "instrumentation, instrumented binaries"
   - "instrumented binaries and relocating"
   - "profiling tools, instrumented binaries"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+monikerRange: 'vs-2017'
+ms.workload:
   - "multiple"
 ---
-# How to: Relocate Instrumented Binaries
+# How to: Relocate instrumented binaries
 
 During instrumentation, probes are inserted into the binary to measure application performance. By choosing to relocate the instrumented binary, a copy of the original binary is instrumented and put in the specified location. This option is useful if you do not want the profiler to rename your original binary. If the binary is not relocated, the original version of the binary is overwritten.
 
@@ -34,5 +32,5 @@ During instrumentation, probes are inserted into the binary to measure applicati
 
 ## See also
 
-[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)  
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)
 [VSInstr](../profiling/vsinstr.md)

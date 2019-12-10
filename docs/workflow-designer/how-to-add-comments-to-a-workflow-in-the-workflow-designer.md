@@ -1,37 +1,37 @@
 ---
-title: "How to: Add comments to a workflow in the Workflow Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - How to: Add comments to a workflow"
+ms.date: 11/04/2016
+ms.topic: conceptual
+f1_keywords:
   - "System.Activities.Presentation.Annotations.Annotation.UI"
   - "Annotation"
 ms.assetid: 9aa0e8d6-8129-4438-8389-d460611581a7
-ms.author: gewarren
-manager: douge
-ms.workload: 
+ms.author: jillfra
+manager: jillfra
+ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # How to: Add comments to a workflow in the Workflow Designer
 
-To facilitate creating larger, more complicated workflows, [!INCLUDE[net_v45](../ide/includes/net_v45_md.md)] allows the developer to add annotations to the following types of item in the designer:
+To facilitate creating larger, more complicated workflows, .NET Framework 4.5 allows the developer to add annotations to the following types of item in the designer:
 
--   <xref:System.Activities.Activity>
+- <xref:System.Activities.Activity>
 
--   <xref:System.Activities.Statements.State>
+- <xref:System.Activities.Statements.State>
 
--   <xref:System.Activities.Statements.Transition>
+- <xref:System.Activities.Statements.Transition>
 
--   Classes derived from <xref:System.Activities.Statements.FlowNode>
+- Classes derived from <xref:System.Activities.Statements.FlowNode>
 
--   <xref:System.Activities.Variable>
+- <xref:System.Activities.Variable>
 
--   <xref:System.Activities.Argument>
+- <xref:System.Activities.Argument>
 
 > [!IMPORTANT]
 > The contents of an annotation are saved as plain text to the XAML file associated with the workflow, and could potentially be read by others. Be cautious when entering sensitive information into an annotation.
 
-### Adding an annotation to an activity in the designer
+## Adding an annotation to an activity in the designer
 
 1. In the workflow designer, right-click on an item in the workflow designer and select **Annotations**, **Add Annotation**.
 
@@ -39,19 +39,19 @@ To facilitate creating larger, more complicated workflows, [!INCLUDE[net_v45](..
 
    The item shows an annotation icon. Hovering over the annotation icon displays the text of the annotation.
 
-### Displaying an annotation in an activity's designer
+## Displaying an annotation in an activity's designer
 
-1.  With an activity designer which has an annotation displaying outside the activity, click the **Pin** icon in the annotation adorner.
+1. With an activity designer which has an annotation displaying outside the activity, click the **Pin** icon in the annotation adorner.
 
    The annotation is displayed in the activity's designer. In the screenshot below, the annotation "Starting activity in the workflow" is displayed in the activity's designer.
 
-   ![Annotation shown in the activity designer](../workflow-designer/media/annotationindesigner.png "AnnotationInDesigner")
+   ![Annotation shown in the activity designer](../workflow-designer/media/annotationindesigner.png)
 
-1. To display the annotation outside the activity's designer, hover over the annotation area in the activity's designer and click the **Unpin** icon
+2. To display the annotation outside the activity's designer, hover over the annotation area in the activity's designer and click the **Unpin** icon
 
-   ![Annotation displayed outside an activity's designe](../workflow-designer/media/annotationoutsidedesigner.png "AnnotationOutsideDesigner")
+   ![Annotation displayed outside an activity's designer](../workflow-designer/media/annotationoutsidedesigner.png)
 
-### Showing or hiding all annotations
+## Showing or hiding all annotations
 
 1. Right-click an activity that has an annotation. Select **Annotations**, **Show All Annotations**.
 
@@ -59,7 +59,7 @@ To facilitate creating larger, more complicated workflows, [!INCLUDE[net_v45](..
 
 1. To display all annotations outside the activity's designers, right-click on the activity and select **Annotations**, **Hide All Annotations**.
 
-### Editing or deleting an annotation for an activity
+## Editing or deleting an annotation for an activity
 
 1. Right-click on an activity that has an annotation.
 
@@ -69,7 +69,7 @@ To facilitate creating larger, more complicated workflows, [!INCLUDE[net_v45](..
 
 1. To delete all the annotations at once, right-click the workflow designer and select **Annotation**, **Delete All Annotations**.
 
-### Adding, editing, and deleting an annotation for a variable or argument
+## Adding, editing, and deleting an annotation for a variable or argument
 
 1. Right-click on a variable or argument and select Add Annotation.
 

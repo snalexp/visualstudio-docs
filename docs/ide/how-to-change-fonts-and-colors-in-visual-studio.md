@@ -1,17 +1,14 @@
 ---
-title: "How to: Change fonts and colors in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-general"
-ms.topic: "conceptual"
+title: Change fonts and colors
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio, color themes"
   - "color themes, Visual Studio"
 ms.assetid: 60d91ba1-244b-4c43-847f-60b744f1352a
-author: "gewarren"
-ms.author: "gewarren"
-manager: douge
+author: jillre
+ms.author: jillfra
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -28,7 +25,7 @@ You can customize the color of the IDE frame and tool windows in Visual Studio i
 
 1. In the options list, choose **Environment** > **General**.
 
-1. In the **Color theme** list, choose either the default **Blue** theme, **Dark** or **Light**.
+1. In the **Color theme** list, choose either the default **Blue** theme, **Dark**, or **Light**.
 
 > [!NOTE]
 > When you change a color theme, text in the IDE reverts to the default or previously customized fonts and sizes.
@@ -38,7 +35,7 @@ You can customize the color of the IDE frame and tool windows in Visual Studio i
 
 ## Use Windows high contrast colors
 
-Choose the **Left Alt** + **Left Shift** + **PrtScn** keys.
+Choose the **Left Alt**+**Left Shift**+**PrtScn** keys.
 
 > [!WARNING]
 > This option sets high contrast for all applications and UI on the current computer.
@@ -56,7 +53,7 @@ You can change the font and text size for all windows and dialog boxes in the ID
 1. In the **Show settings for** list, choose **Environment Font**.
 
     > [!TIP]
-    > If you want to change the font for tool windows only, in the **Show settings for** list, choose **[All Text Tool Windows]**.
+    > If you want to change the font for tool windows only, in the **Show settings for** list, choose **All Text Tool Windows**.
 
 1. In the **Font** list, choose a font.
 
@@ -64,5 +61,5 @@ You can change the font and text size for all windows and dialog boxes in the ID
 
 ## See also
 
-[Accessibility features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md)
-[How to: Change fonts and colors in the editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md)
+- [Accessibility features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md)
+- [How to: Change fonts and colors in the editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md)

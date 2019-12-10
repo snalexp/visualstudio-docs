@@ -1,17 +1,17 @@
 ---
-title: "Flowchart Activity Designers | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: "Workflow Designer - Flowchart Activity Designers"
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: 8b7b4aa6-d27d-45c8-87c2-641440d38afc
-author: gewarren
-ms.author: gewarren
-manager: douge
-ms.workload: 
+author: jillre
+ms.author: jillfra
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Flowchart Activity Designers
 
-Windows Workflow Designer includes a number of system-provided activities that you can use when constructing your workflows. This section contains the system-provided activities used to manage flowcharts within a workflow. The following topics describe these activities and provide guidance on how to use them.
+Workflow Designer includes a number of system-provided activities that you can use when constructing your workflows. This section contains the system-provided activities used to manage flowcharts within a workflow. The following topics describe these activities and provide guidance on how to use them.
 
 ## Reference
  <xref:System.Activities.Activity>
@@ -27,7 +27,7 @@ Windows Workflow Designer includes a number of system-provided activities that y
 
  [Control Flow](../workflow-designer/control-flow-activity-designers.md)
 
- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+ [Using the Activity Designers](control-flow-activity-designers.md)
 
  [Messaging](../workflow-designer/messaging-activity-designers.md)
 

@@ -1,17 +1,17 @@
 ---
-title: "Control Flow Activity Designers | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: "Workflow Designer - Control Flow Activity Designers"
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: ba74af23-5398-4e62-bd90-c50612e3bfef
-author: gewarren
-ms.author: gewarren
-manager: douge
-ms.workload: 
+author: jillre
+ms.author: jillfra
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Control Flow Activity Designers
 
-Windows Workflow Designer includes a number of system-provided activities that you can use when constructing your workflows. This section contains the system-provided activities used to control the flow within a workflow. The following topics describe these activities and provide guidance on how to use them.
+Workflow Designer includes a number of system-provided activities that you can use when constructing your workflows. This section contains the system-provided activities used to control the flow within a workflow. The following topics describe these activities and provide guidance on how to use them.
 
 ## Reference
 
@@ -39,9 +39,9 @@ Windows Workflow Designer includes a number of system-provided activities that y
 
 ## Related Sections
 
-For other types of activity designers, see the following topics.
+For other types of activity designers, see the following topics:
 
- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+ [Using the Activity Designers](control-flow-activity-designers.md)
 
  [Flowchart](../workflow-designer/flowchart-activity-designers.md)
 
@@ -59,4 +59,4 @@ For other types of activity designers, see the following topics.
 
 ## External Resources
 
-- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+- [Using the Activity Designers](control-flow-activity-designers.md)

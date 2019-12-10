@@ -1,17 +1,15 @@
 ---
-title: "How to add an app.config file to a project in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: vs-ide-general
-ms.topic: "conceptual"
-dev_langs: 
+title: How to add an app.config file to a project
+ms.date: 11/04/2016
+ms.topic: conceptual
+dev_langs:
   - "CSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "app.config files, adding to C# projects"
-author: "gewarren"
-ms.author: "gewarren"
-manager: douge
-ms.workload: 
+author: jillre
+ms.author: jillfra
+manager: jillfra
+ms.workload:
   - "dotnet"
 ---
 # How to: Add an application configuration file to a C# project
@@ -37,6 +35,6 @@ When you build your project, the development environment automatically copies yo
 
 ## See also
 
-[Manage application settings (.NET)](../ide/managing-application-settings-dotnet.md)  
-[Configuration file schema (.NET Framework)](/dotnet/framework/configure-apps/file-schema/index)  
-[Configure apps (.NET Framework)](/dotnet/framework/configure-apps/index)
+- [Manage application settings (.NET)](../ide/managing-application-settings-dotnet.md)
+- [Configuration file schema (.NET Framework)](/dotnet/framework/configure-apps/file-schema/index)
+- [Configure apps (.NET Framework)](/dotnet/framework/configure-apps/index)

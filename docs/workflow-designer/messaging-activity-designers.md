@@ -1,50 +1,54 @@
 ---
-title: "Messaging Activity Designers | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: "Workflow Designer - Messaging Activity Designers"
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: 897e63cf-a42f-4edd-876f-c4ccfffaf6d6
-author: gewarren
-ms.author: gewarren
-manager: douge
-ms.workload: 
+author: jillre
+ms.author: jillfra
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
-# Messaging Activity Designers
-Messaging activity designers are used to create and configure messaging activities that send and receive [!INCLUDE[indigo1](../workflow-designer/includes/indigo1_md.md)] messages from within a [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] application. The [!INCLUDE[netfx40_long](../workflow-designer/includes/netfx40_long_md.md)] introduces five messaging activities and the Windows Workflow Designer provides two new template designers that enable you to manage messaging within a workflow. The topics contained in this section and listed in the following table provide guidance on how to use the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] activity and template designers.
+# Messaging activity designers
 
-## Reference
- <xref:System.Activities.Activity>
+Messaging activity designers are used to create and configure messaging activities that send and receive Windows Communication Foundation (WCF) messages from within a Windows Workflow Foundation (WF) application. Five messaging activities were introduced in .NET Framework 4. The Workflow Designer provides two template designers that enable you to manage messaging within a workflow.
 
- <xref:System.ServiceModel.Activities.CorrelationScope>
+The topics contained in this section and listed in the following table provide guidance on how to use the Workflow Designer activity and template designers.
 
- <xref:System.ServiceModel.Activities.Receive>
+- <xref:System.Activities.Activity>
 
- <xref:System.ServiceModel.Activities.Send>
+- <xref:System.ServiceModel.Activities.CorrelationScope>
 
- <xref:System.ServiceModel.Activities.ReceiveReply>
+- <xref:System.ServiceModel.Activities.Receive>
 
- <xref:System.ServiceModel.Activities.SendReply>
+- <xref:System.ServiceModel.Activities.Send>
 
- <xref:System.ServiceModel.Activities.TransactedReceiveScope>
+- <xref:System.ServiceModel.Activities.ReceiveReply>
 
-## Related Sections
- For other types of activity designers, see the following topics.
+- <xref:System.ServiceModel.Activities.SendReply>
 
- [Control Flow](../workflow-designer/control-flow-activity-designers.md)
+- <xref:System.ServiceModel.Activities.TransactedReceiveScope>
 
- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+## Related sections
 
- [Flowchart](../workflow-designer/flowchart-activity-designers.md)
+For other types of activity designers, see the following topics:
 
- [Runtime](../workflow-designer/runtime-activity-designers.md)
+- [Control Flow](../workflow-designer/control-flow-activity-designers.md)
 
- [Primitives](../workflow-designer/primitives-activity-designers.md)
+- [Using the Activity Designers](control-flow-activity-designers.md)
 
- [Transaction](../workflow-designer/transaction-activity-designers.md)
+- [Flowchart](../workflow-designer/flowchart-activity-designers.md)
 
- [Collection](../workflow-designer/collection-activity-designers.md)
+- [Runtime](../workflow-designer/runtime-activity-designers.md)
 
- [Error Handling](../workflow-designer/error-handling-activity-designers.md)
+- [Primitives](../workflow-designer/primitives-activity-designers.md)
 
-## External Resources
- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+- [Transaction](../workflow-designer/transaction-activity-designers.md)
+
+- [Collection](../workflow-designer/collection-activity-designers.md)
+
+- [Error Handling](../workflow-designer/error-handling-activity-designers.md)
+
+## External resources
+
+[Using the Activity Designers](control-flow-activity-designers.md)

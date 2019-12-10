@@ -1,16 +1,13 @@
 ---
-title: "Preview code changes in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "12/16/2016"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
-author: "gewarren"
-ms.author: "gewarren"
-manager: douge
-f1_keywords: 
+title: Preview code changes
+ms.date: 12/16/2016
+ms.topic: conceptual
+author: jillre
+ms.author: jillfra
+manager: jillfra
+f1_keywords:
   - "vs.codefix.previewchanges"
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Preview Changes window
@@ -27,5 +24,5 @@ After reviewing the changes, click the **Apply** button to commit those changes,
 
 ## See also
 
-[Refactoring in Visual Studio](../ide/refactoring-in-visual-studio.md)  
-[Quick Actions](../ide/quick-actions.md)
+- [Refactoring in Visual Studio](../ide/refactoring-in-visual-studio.md)
+- [Quick Actions](../ide/quick-actions.md)
